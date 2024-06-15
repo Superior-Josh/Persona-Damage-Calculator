@@ -1,0 +1,46 @@
+/* App.css */
+
+.Reference {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.link-image {
+    margin: 0 10px;
+    /* 上下间距为0，左右间距为10px */
+}
+
+.App {
+    background-image: url('../public/img/background.png');
+    background-size: 100% calc(100% - 70px);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: #DC0000;
+    padding: 0 0 160px 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.App {
+    background-image: url('../public/img/background.png');
+    background-size: calc(100% - 144px) calc(100% - 81px);
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ce1c1c;
+}
+
+.App-link {
+    color: #61dafb;
+    text-decoration: none;
+    font-size: calc(10px + 2vmin);
+}
